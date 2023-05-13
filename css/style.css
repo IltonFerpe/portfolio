@@ -558,7 +558,7 @@ span{
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
-    width: 60%;
+    width: 30%;
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
@@ -766,7 +766,7 @@ section:nth-child(odd) .animate.scroll,
     html{
         font-size: 50%;
     }
-
+    
     .home-content h1{
         display: flex;
         flex-direction: column;
@@ -783,6 +783,10 @@ section:nth-child(odd) .animate.scroll,
 }
 
 @media (max-width: 462px){
+    .home{
+        background: var(--bg-color);
+    }
+
     .home-content h1{
         font-size: 5.2rem;
     }
@@ -803,6 +807,7 @@ section:nth-child(odd) .animate.scroll,
 
 @media (max-width: 371px){
     .home{
+        background: var(--bg-color);
         justify-content: center;
     }
 
